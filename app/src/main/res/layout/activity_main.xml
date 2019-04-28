@@ -45,12 +45,78 @@
         android:id="@+id/windText"
         android:textColor="#fff"
         android:textSize="16dp"
-        android:text="wind"
+        android:text="Wind"
         android:layout_below="@+id/thumbnailIcon"
         android:layout_marginTop="35dp"
         android:layout_marginLeft="10dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
-    
+
+    <TextView
+        android:id="@+id/cloudText"
+        android:textColor="#fff"
+        android:textSize="16dp"
+        android:text="Cloud"
+        android:layout_below="@+id/windText"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/pressureText"
+        android:textColor="#fff"
+        android:textSize="16dp"
+        android:text="Pressure"
+        android:layout_below="@+id/cloudText"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/humidText"
+        android:textColor="#fff"
+        android:textSize="16dp"
+        android:text="Humidity"
+        android:layout_below="@+id/pressureText"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/riseText"
+        android:textColor="#fff"
+        android:textSize="16dp"
+        android:text="Sunrise"
+        android:layout_below="@+id/humidText"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/setText"
+        android:textColor="#fff"
+        android:textSize="16dp"
+        android:text="Sunset"
+        android:layout_below="@+id/riseText"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/updateText"
+        android:textColor="#fff"
+        android:textSize="26dp"
+        android:text="Last Updated"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/setText"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
 
 </RelativeLayout>
